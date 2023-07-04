@@ -1,0 +1,5 @@
+DATE=`date`
+
+echo "Hello! This app was built on $DATE" > /tmp/src/index.html
+
+exec /usr/libexec/s2i/assemble
